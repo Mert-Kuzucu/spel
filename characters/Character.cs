@@ -15,7 +15,7 @@ public class Character
   {
     if (target.SnusInventory > 0)
     {
-      Console.WriteLine($"{Name} takes a snus from {target.Name}.");
+      Console.WriteLine($"{Nae} takes a snus from {target.Name}.");
       target.TakeSnus();
     }
     else
